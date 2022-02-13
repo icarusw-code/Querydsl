@@ -13,6 +13,7 @@ spring:
       hibernate:
         # show_sql: true # 쿼리 예쁘게 보는 법
         format_sql: true
+        use_sql_comments: true
 logging.level:
   org.hibernate.SQL: debug
   org.hibernate.type: trace
